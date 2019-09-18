@@ -17,5 +17,10 @@
     "github": {
       "release": false,
       "releaseName": "Release ${version}"
-    }
+    },
+    "plugins": {
+        "@release-it/conventional-changelog": {
+          "preset": "angular"
+        }
+      }
   }
