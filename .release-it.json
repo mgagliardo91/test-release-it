@@ -2,8 +2,6 @@
     "hooks": {},
     "git": {
       "requireCleanWorkingDir": false,
-      "commit": true,
-      "commitMessage": "Release ${version}",
       "tag": true,
       "tagName": "${version}",
       "tagAnnotation": "Release ${version}",
