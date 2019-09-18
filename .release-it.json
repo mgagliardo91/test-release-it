@@ -1,0 +1,21 @@
+{
+    "hooks": {},
+    "git": {
+      "requireCleanWorkingDir": false,
+      "commit": true,
+      "commitMessage": "Release ${version}",
+      "tag": true,
+      "tagName": "${version}",
+      "tagAnnotation": "Release ${version}",
+      "push": true,
+      "pushArgs": "--follow-tags",
+      "pushRepo": "origin"
+    },
+    "npm": {
+      "publish": false
+    },
+    "github": {
+      "release": false,
+      "releaseName": "Release ${version}"
+    }
+  }
